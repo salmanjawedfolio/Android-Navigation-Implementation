@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidNavigationDemo</string>
+
+    <!-- Welcome Screen-->
+    <string name="msg_welcome">Welcome to Android Navigation Demo</string>
+
+    <!-- Login Screen-->
+    <string name="msg_login">Login</string>
+    <string name="hint_username">Enter Username</string>
+    <string name="hint_password">Enter Password</string>
+</resources>

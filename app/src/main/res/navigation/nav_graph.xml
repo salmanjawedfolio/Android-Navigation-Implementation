@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/welcomeFragment">
+
+    <fragment android:id="@+id/welcomeFragment" android:name="com.sjawed.androidnavigationdemo.WelcomeFragment"
+              android:label="fragment_welcome" tools:layout="@layout/fragment_welcome">
+        <action android:id="@+id/action_welcomeFragment_to_loginFragment" app:destination="@id/loginFragment"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"
+                app:popUpToInclusive="true" app:popUpTo="@+id/welcomeFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/loginFragment" android:name="com.sjawed.androidnavigationdemo.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login"/>
+</navigation>
