@@ -8,4 +8,9 @@
     <string name="msg_login">Login</string>
     <string name="hint_username">Enter Username</string>
     <string name="hint_password">Enter Password</string>
+
+    <!--Home Screen-->
+    <string name="msg_home">Home</string>
+    <string name="lbl_welcome">Welcome</string>
+    <string name="btn_logout">Logout</string>
 </resources>
